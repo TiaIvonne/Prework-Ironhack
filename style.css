@@ -1,0 +1,234 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 0.5px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display:inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*Header*/
+
+#header{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-image: url(images/city-scape.svg);
+    float: center;
+}
+
+/*Build Amazing things*/
+
+#build{
+    width: 100;
+    margin: 100;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 500px;
+    font-size: 18px 
+}
+
+#sign-buttom{
+    color: white;
+    background-color: #f09233;
+    border-radius: 50px;
+    border-color:#f09233; 
+    padding: 7px 18px 8px 18px;
+    float: center;
+    border-bottom-color: #f09233;
+    margin-top: 10px;
+    outline:none;
+    font-size:18px;
+}
+
+/*Search bar*/
+#logo{
+    float: left;
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 10px
+}
+
+#login{
+    float: right;
+    text-decoration: none;
+    color: white;
+    width: 100;
+    height: 50px;
+    padding-top: 10px;
+}
+#bear{
+    float: right;
+    padding-right: 1px;
+    padding-left: 1px;
+    
+}
+#search-text{
+    width: 800px;
+    height: 50px;
+    color: black;
+    opacity: 0.3;
+    background-color: rgb(31, 82, 111);
+    border: 10px;
+    padding-left: 0px;
+    border: 1px;
+      
+}
+
+/*section1*/
+
+#collaboration{
+    color: white;
+    background-color: rgb(39,53,71);
+    height: 500px;
+}
+
+#team{
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right:30px;
+}
+
+/*text section*/
+
+#npm{
+   padding-top: 40px;
+   padding-left:20px;
+   margin-bottom:20px;
+   
+
+}
+
+#bullet-list li{
+    margin-top: 4px;
+    margin-bottom: 20px;
+    
+}
+
+/*buttom sign up*/
+#sign-org{
+    color: white;
+    background-color: #cb3837;
+    border-radius: 50px;
+    border-color:#cb3837; 
+    padding: 7px 18px 8px 18px;
+    float: center;
+    border-bottom-color: #cb3837;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline:none;
+    font-size:18px;
+}
+
+#learn-more{
+    text-decoration: none;
+    color: white;
+}
+
+/*section2*/
+
+#lift-truck{
+    background-image: url(images/forklift.svg);
+    height: 400px;
+    background-size: cover;
+}
+
+#what-npm{
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#npm-install{
+    color: white;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+#button3{
+    color: white;
+    background-color: rgb(39, 53, 71);
+    border-radius: 50px;
+    border-color:rgb(39, 53, 71); 
+    padding: 7px 18px 8px 18px;
+    border-bottom-color: rgb(39, 53, 71);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    outline:none;
+    font-size:18px;
+
+}
+
+/*Last section*/
+
+#blocks{
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    color: rgb(83,88,98);
+}
+
+.second-block a{
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+    margin:0;
+    
+}
+
+#find, #discover, #backpack{
+    margin:0 auto;
+    text-align: center;
+    
+}
+
+.column {
+      float: left;
+      width: 13.33%;
+      text-align: center;
+      font-size: 13px;
+      color: rgb(83,88,98);
+      padding-top: 30px;
+      padding-left: 150px;
+      padding-bottom: 15px;
+}
+
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+#link a{
+    text-decoration: none;
+    color: rgb(208, 74, 73);
+}
